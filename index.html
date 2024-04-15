@@ -3,40 +3,93 @@
     <title>My Profile</title>
     <meta name="description" content="Profile content.">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    <div class="container text-center">
-      <div class="card-white">
-        <h1>Freddy Henderson</h1>
-        <h2>Programmer</h2>
-        <img src="images/picture.png" class="img-circle" width="100ox" alt="profile picture">
-        <p>
-          "I am a dinosaur enthusiast from the UK."
-        </p>
-        <a href="https://i-dont-look-autistic.com/" class="button"">My website</a>
+
+    <div class="container">
+      <div id="intro-section">
+        <img src="images/profile_picture.png" alt="Freddy sitting in her wheelchair" class="card" id="picture-card">
+
+        <div class="card padded-card" id="intro-card">
+          <h2>> Please enter name:</h2>
+          <h2 class="pink">&nbsp Freddy Henderson</h2>
+          <h2>> Please enter job title:</h2>
+          <h2 class="pink">&nbsp Software Developer </h2>
+          <h2>> Please enter quote:</h2>
+          <h2 class="pink">&nbsp "Can't walk, lol"</h2>
+        </div>
       </div>
-      <div class="card-white">
+
+      <div class="card">
+        <ul class="gallery-ul">
+          <li class="gallery-li"><img src="/images/riley/PXL_20230628_150648467.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20240115_204550882.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20231018_111637139.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20230919_220535871.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20231217_173454637.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20240101_174220064.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20231120_204850156.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20240112_194704292.jpg" alt="Riley" class="gallery-img"></li>
+          <li class="gallery-li"><img src="/images/riley/PXL_20231206_202802884.jpg" alt="Riley" class="gallery-img"></li>
+        </ul>
+      </div>
+
+      <div id="about-section">
+        <div class="card padded-card" id="about-card">
+          <h2>About me:</h2>
+          <p>🐕 My dog is called Riley</p>
+          <p>🎮 I am hoping to switch to game development</p>
+          <p>🏀 I love playing wheelchair basketball</p>
+          <p>🦕 My favourite dinosaur is a Parasaurolophus</p>
+        </div>
+
+        <div class="card padded-card" id="stack-card">
+          <h2>My Tech Stack:</h2>
+          <ul class="logo-ul">
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=cpp" alt="C++ logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=unreal" alt="Unreal Engine logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=ruby" alt="Ruby logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=rails" alt="Ruby on Rails logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=html" alt="HTML logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=css" alt="CSS logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=sass" alt="SASS logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=matlab" alt="Matlab logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=r" alt="R logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=heroku" alt="Heroku logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=git" alt="Git logo" class="logo-img"></li>
+            <li class="logo-li"><img src="https://skillicons.dev/icons?i=figma" alt="Figma logo" class="logo-img"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card padded-card text-center">
         <div class="list-inline">
           <ul>
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-facebook"></i>
+            <a href="https://github.com/henderson907" target="_blank">
+              <i class="fa-brands fa-square-github"></i>
             </a>
           </ul>
           <ul>
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.linkedin.com/in/freddy-henderson-a53435272/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
             </a>
           </ul>
           <ul>
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-instagram"></i>
+            <a href="https://codepen.io/freddy907" target="_blank">
+              <i class="fa-brands fa-codepen"></i>
             </a>
           </ul>
         </div>
       </div>
+
     </div>
   </body>
-
 </html>
