@@ -31,7 +31,7 @@ body {
 }
 
 .padded-card {
-  padding: 30px;
+  padding: 30px !important;
 }
 
 .list-inline > ul {
@@ -57,7 +57,8 @@ ul > a > i:hover {
 .gallery-ul {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none
+  list-style-type: none;
+  width: 93%;
 }
 
 .gallery-li {
